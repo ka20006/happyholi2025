@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Holi Premium</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(45deg, #FF1493, #FF69B4, #FF6B6B, #4B0082);
+            font-family: 'Arial', sans-serif;
+            overflow: hidden;
+        }
+        .container {
+            text-align: center;
+            color: white;
+            animation: float 3s ease-in-out infinite;
+        }
+        h1 {
+            font-size: 4em;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            margin-bottom: 20px;
+        }
+        .colors {
+            font-size: 1.5em;
+            margin-bottom: 30px;
+        }
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-20px); }
+            100% { transform: translateY(0px); }
+        }
+        .sparkle {
+            animation: sparkle 1.5s ease-in-out infinite;
+            opacity: 0.8;
+        }
+        @keyframes sparkle {
+            0% { opacity: 0.8; }
+            50% { opacity: 1; }
+            100% { opacity: 0.8; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>✨ Happy Holi ✨</h1>
+        <div class="colors">
+            <span class="sparkle">🎨 Colors of Joy 🎨</span>
+        </div>
+        <p>May your life be as colorful as the festival of Holi!</p>
+    </div>
+</body>
+</html>
